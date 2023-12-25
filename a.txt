@@ -1,0 +1,13 @@
+Sql Queries used:
+
+1. To create a Urls table:
+CREATE TABLE urls (
+    id SERIAL PRIMARY KEY,
+    url VARCHAR(50),
+    clicks INT DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+2.
